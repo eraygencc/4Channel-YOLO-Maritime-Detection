@@ -45,7 +45,7 @@ Using the insights from the Monte Carlo and SNR diagnostics, I executed a **Data
 
 * `prepare_dataset.py`: Merges raw 4-channel `.tif` imagery with curated YOLO `.txt` labels and generates the train/val split structure.
 * `train.py`: Contains the PyTorch layer surgery script to upgrade standard YOLO to 4 channels, and executes the fine-tuning loop.
-* `Sentinel2_Data_Pipeline.ipynb`: (Optional) The original research notebook detailing the STAC API ingestion and MC Dropout heatmap logic.
+
 
 ## 🚀 Quick Start
 1. Clone the repository and install requirements:
