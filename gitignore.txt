@@ -1,0 +1,30 @@
+# Python / Environment
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+env/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Data (DO NOT push large satellite imagery or generated datasets)
+data/
+*.tif
+*.tiff
+final_multispectral_dataset/
+baseline_rgb_dataset/
+temp_*/
+
+# Model Weights and YOLO Runs (Massive files)
+*.pt
+Ship_Detection_Runs/
+runs/
+
+# Logs and Outputs
+*.log
